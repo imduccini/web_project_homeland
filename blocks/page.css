@@ -6,8 +6,13 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .page {
-    max-width: 100%;
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .page {
+    max-width: 544px;
   }
 }

@@ -1,9 +1,9 @@
 .content {
-  width: 830px;
+  max-width: 830px;
+  width: 100%;
   color: #fff;
 }
 .content__title {
-  height: 116px;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -24,48 +24,50 @@
   flex-direction: column;
   max-width: 738px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .content {
-    max-width: 768px;
+    max-width: 1024px;
   }
   .content__title {
-    width: 707px;
-    height: 98px;
+    max-width: 707px;
+    width: 100%;
     font-size: 45px;
     line-height: 49px;
   }
   .content__cite {
-    width: 720px;
-    height: 102px;
+    max-width: 720px;
+    width: 100%;
   }
   .content__author {
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
   }
   .content__text {
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .content {
-    max-width: 320px;
+    max-width: 100%;
   }
   .content__title {
-    width: 288px;
-    height: 140px;
+    max-width: 288px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }
   .content__cite {
-    width: 288px;
-    height: 180px;
+    max-width: 288px;
+    width: 100%;
     line-height: 30px;
   }
   .content__author {
-    width: 288px;
-    height: 34px;
+    max-width: 288px;
+    width: 100%;
   }
   .content__text {
-    width: 288px;
-    height: 442px;
+    max-width: 288px;
+    width: 100%;
   }
 }
