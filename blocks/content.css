@@ -1,7 +1,8 @@
 .content {
-  max-width: 830px;
+  max-width: 984px;
   width: 100%;
   color: #fff;
+  box-sizing: border-box;
 }
 .content__title {
   font-weight: 900;
@@ -27,24 +28,25 @@
 @media screen and (max-width: 1024px) {
   .content {
     max-width: 1024px;
+    padding: 0 24px;
   }
   .content__title {
     max-width: 707px;
-    width: 100%;
     font-size: 45px;
     line-height: 49px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 90px;
   }
+  .content__box {
+    margin: 0 auto;
+  }
+
   .content__cite {
-    max-width: 720px;
-    width: 100%;
   }
   .content__author {
-    max-width: 720px;
-    width: 100%;
   }
   .content__text {
-    max-width: 720px;
-    width: 100%;
   }
 }
 @media screen and (max-width: 544px) {
@@ -52,22 +54,19 @@
     max-width: 100%;
   }
   .content__title {
-    max-width: 288px;
     width: 100%;
     font-size: 32px;
     line-height: 35px;
+    padding-top: 64px;
   }
   .content__cite {
-    max-width: 288px;
     width: 100%;
     line-height: 30px;
   }
   .content__author {
-    max-width: 288px;
     width: 100%;
   }
   .content__text {
-    max-width: 288px;
     width: 100%;
   }
 }
