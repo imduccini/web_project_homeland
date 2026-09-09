@@ -63,3 +63,9 @@
     width: 100%;
   }
 }
+.photo-grid {
+  display: grid;
+}
+.grid {
+  display: grid;
+}
