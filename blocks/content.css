@@ -108,9 +108,14 @@
 .artists {
   font-family: "Inter";
   font-weight: 400;
-  font-size: 1px;
+  font-size: 15px;
   color: #aaaaaa;
   padding-bottom: 10px;
+}
+.grid-photo:hover {
+  box-shadow: 10px 10px 25px 0px #00000080;
+  background: #000000;
+  opacity: 50%;
 }
 @media screen and (max-width: 1024px) {
   .content {
@@ -136,14 +141,14 @@
     width: 100%;
     height: auto;
   }
-  .grid-places .grid-title {
-    max-width: 100%;
-    line-height: 46px;
-    font-size: 30px;
-  }
-  .link {
-    align-self: start;
-  }
+}
+.grid-places .grid-title {
+  max-width: 100%;
+  line-height: 46px;
+  font-size: 30px;
+}
+.link {
+  align-self: start;
 }
 
 @media screen and (max-width: 544px) {
