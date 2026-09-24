@@ -1,0 +1,36 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 1184px;
+  padding-bottom: 40px;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 118px;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.photo-grid__images {
+  width: 100%;
+}
+
+.grid-photo:hover {
+  box-shadow: 10px 10px 25px 0px #00000080;
+  background: #000000;
+  opacity: 50%;
+}
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-photo {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 544px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
